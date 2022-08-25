@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="cabecera">
+        <div class="div-uno">
+            <div class="botonesUno">
+                <input id="masAltos" type="button" value=" &#8593  DE ALTOS A BAJOS  &#8595" onclick="AltosBajos()"><br>
+                <input id="mujer" type="button" value="HOMBRES  &#9794" onclick="Hombres()">
+                <input id="hombre" type="button" value="MUJERES  &#9792" onclick="Mujeres()">
+            </div>
+        </div>
+        <div class="div-dos" >
+            <div class="bienvenida">Filtra tus personajes favoritos.</div>
+            <img src="img/star-wars-logo-2.png" onclick="window.location.reload();" alt="">
+        </div>
+        <div class="div-tres">
+            <div class="botonesDos">
+                <input class="esAltura" type="text" onfocus="this.placeholder = ''" placeholder="ESCRIBE UNA ALTURA">
+                <input class="porAltura" type="button" value="BUSCAR + ALTOS" onclick="AlturaMayor()">
+                <input class="porAltura" type="button" value="BUSCAR + BAJOS" onclick="AlturaMenor()">
+            </div>
+        </div>
+    </header>
+    <div class="div-seis">
+        <input class="mascotas" type="button" value="VER MASCOTAS" onclick="JuntarArreglos();">
+        <input class="todo" type="button" value="VER TODO ORDENADO" onclick="VerTodo()">
+    </div>
+    <main id="colunmas">
+        <div class="div-cuatro">
+            <p id="scroll"></p>
+        </div>
+        <div class="div-cinco">
+            <p id="show"></p>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+<!-- *~~~
+INSTRUCCIONES.- 
+
+1.- Ordenar a todos los personajes por nombre de manera ascendente y descendente mostrarlos en la lista ordenada.
+2.- Realizar una busqueda por genero y mostrar el resultado de la busqueda en la lista ordenada.
+3.- A partir de dos valores ingresados (altura e indicación si buscara mayor o menos) buscar a todos los personajes que cumplan con los valores ingresados.
+4.- Agregar un arreglo con algunas mascotas que pudieran tener los personajes a todo los objetos o en los que se decidan agregar (Inventado)
+5.- Ingresar un valor para comparar las alturas de todos los personajes si el valor ingresado es mayor 
+a la altura, agregar un nuevo atributo al objeto que diga "El personaje es muy alto" si el valor es 
+menor a la altura, agregar un nuevo atributo al objeto que diga "El personaje es muy bajo" -->

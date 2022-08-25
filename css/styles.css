@@ -1,0 +1,308 @@
+body{
+    background-color: #000000;
+    background-image: url('../img/star-wars-background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* COSAS GENERALES */
+header {
+    align-items: center;
+    display: flex;
+    /* float: left; */
+    font-weight: bold;
+    height: 30vh;
+    /* justify-content: space-between; */
+    /* margin: 2px 0 10px 0; */
+    overflow: hidden;
+    padding: 4px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 20;
+}
+
+.div-uno {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.div-dos {
+    align-items: center;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.div-tres {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.div-dos, img{
+    align-items: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 70%;
+    justify-content: center;
+    padding: 10px 0 10px 10px;
+    object-fit: contain;
+    width: 80%;
+}
+
+img:hover {
+    background-color: rgb(255, 255, 255, .1);
+}
+
+.div-dos, .bienvenida {
+    color: #f4f4f4;;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    padding: 0 0 20 10px;
+}
+
+main {
+    /* align-items: center; */
+    display: flex;
+    font-weight: bold;
+    height: 62vh;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    z-index: 20;
+}
+
+.div-cuatro {
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 2rem;
+    display: flex;
+    background-color: rgba(0,0,0, .6);
+    backface-visibility: 10;
+    height: 58vh;
+    justify-content: center;
+    margin: 8rem 0 10px 0;
+    padding: 10px;
+    width: 40%;
+}
+
+.div-cinco {
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 2rem;
+    display: flex;
+    background-color: rgba(0,0,0, .6);
+    height: 58vh;
+    justify-content: center;
+    margin: 8rem 0 10px 0;
+    padding: 10px;
+    width: 40%;
+}
+
+.div-seis {
+    /* border: red solid 2px; */
+    height: 8vh;
+    justify-content: center;
+    margin-top: 16rem;
+    text-align: center;
+    width: 100vw;
+
+    z-index: 50;
+}
+
+ /* BOTONES */
+input {
+    color: #f4e43a;
+    background-color: rgba(0,0,0, .7);
+    border: 0.5px solid #f4f4f4;
+    border-radius: 1rem;
+    padding: 15px 25px;
+}
+
+.div-uno, input {
+    display: inline-block;
+    margin: 10px 0px 10px 10px;
+    text-align: center;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255, .1);
+    color: red;
+}
+
+.div-tres, input {
+    display: inline-block;
+    margin: 20px 0px 20px 10px;
+    text-align: center;
+}
+.div-uno, .masAltos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 47%;
+}
+.div-tres, .esAltura{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
+}
+
+.div-tres .botonesDos .esAltura {
+    margin-left: 60px;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.div-seis input {
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 200px;
+    z-index: 50;
+}
+
+.div-seis .mascotas {
+    color: rgb(0, 240, 0);
+}
+
+.div-seis .todo {
+    color: red;
+}
+
+/* TABLAS */
+p {
+    display: flex;
+    height: 850px;
+    /* overflow-wrap: break-word; */
+    padding: 10px 0;
+    width: 35vw;
+    z-index: 30;
+}
+
+.div-cuatro, p {
+    align-items: baseline;
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    text-align: justify;
+    z-index: 50;
+    contain: content;
+}
+
+/* DESPLAZAMIENTO TEXTO DIV 4 */
+#scroll {
+    color: #f4e43a;
+    display : flex;
+    align-items: center;
+    animation: slide-up 60s linear infinite;
+    background: none;
+    flex-shrink: 0;
+    object-fit: contain;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(0);
+        -webkit-transform: translateY(48%);
+    }
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(-103%);
+    }
+    
+}
+
+
+/* DESPLAZAMIENTO TEXTO DIV 5 */
+.div-cinco, p {
+    align-items: center;
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    text-align: justify;
+    z-index: 50;
+    contain: content;
+}
+
+#show {
+    color: #f4e43a;
+    display : flex;
+    align-items: center;
+    /* animation: segundo 60s linear infinite; */
+    /* transition-delay: initial; */
+    background: none;
+    font-size: 1rem;
+    height: 500px;
+    margin: 1.4rem 0 0 0;
+    padding: 0;
+    object-fit: contain;
+    flex-wrap: wrap;
+    z-index: 1;
+    animation-name: fadein-animation;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+}
+
+
+  
+  @keyframes fadein-animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+/* 
+@keyframes segundo {
+    from {
+        transform: translateY(0);
+        -webkit-transform: translateY(30%);
+    }
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(-105%);
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
