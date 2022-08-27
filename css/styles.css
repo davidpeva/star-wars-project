@@ -286,6 +286,108 @@ p {
     
 } */
 
+@media screen and (min-width: 320px) and (max-width:480px) {
+    header {
+        align-items: center;
+        display: flex;
+        /* float: left; */
+        font-weight: bold;
+        height: 30vh;
+        /* justify-content: space-between; */
+        /* margin: 2px 0 10px 0; */
+        overflow: hidden;
+        padding: 4px;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 20;
+    }
+
+    .div-uno {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 55%;
+        object-fit: contain;
+
+    }
+    
+    .div-dos {
+        align-items: center;
+        width: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    
+    .div-tres {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 35%;
+        object-fit: contain;
+
+    }
+
+     /* BOTONES */
+input {
+    color: #f4e43a;
+    background-color: rgba(0,0,0, .7);
+    border: 0.5px solid #f4f4f4;
+    border-radius: 1rem;
+    padding: 7px 10px;
+}
+
+.div-uno, input {
+    display: inline-block;
+    margin: 5px 0px 5px 5px;
+    text-align: center;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255, .1);
+    color: red;
+}
+
+.div-tres, input {
+    display: inline-block;
+    margin: 5px 0px 5px 5px;
+    text-align: center;
+}
+.div-uno, .masAltos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 47%;
+}
+.div-tres, .esAltura{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
+}
+
+.div-tres .botonesDos .esAltura {
+    margin-left: 33px;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 0.8rem;
+    object-fit: contain;
+}
+
+.div-seis input {
+    justify-content: space-around;
+    margin-right: 5px;
+    width: 200px;
+    z-index: 50;
+}
+
+}
+
 
 
 
