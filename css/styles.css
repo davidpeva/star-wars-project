@@ -292,7 +292,7 @@ p {
         display: flex;
         /* float: left; */
         font-weight: bold;
-        height: 32vh;
+        height: 30vh;
         /* justify-content: space-between; */
         /* margin: 2px 0 10px 0; */
         padding: 4px;
@@ -315,12 +315,7 @@ p {
     }
 
     .div-uno {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         width: 50%;
-        object-fit: contain;
-
         padding-top: 110px;
     }
 
@@ -351,7 +346,6 @@ p {
     .div-tres {
         width: 50%;
         padding-top: 110px;
-
     }
 
     .div-dos, .bienvenida {
@@ -376,11 +370,10 @@ p {
         /* border: red solid 2px; */
         height: 5vh;
         justify-content: center;
-        margin-top: 16.5rem;
+        margin-top: 16rem;
         text-align: center;
         width: 100vw;
-        
-        display: block;
+                
         z-index: 50;
     }
 
@@ -406,7 +399,7 @@ input:hover{
 
 .div-tres, input {
     display: inline-block;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 5px 5px 0px;
     text-align: center;
 }
 .div-uno, .masAltos{
@@ -433,7 +426,6 @@ input::placeholder {
 }
 
 .div-seis input {
-    display: inline-block;
     margin-left: 0;
     margin-right: 0;
     width: 180px;
@@ -449,6 +441,11 @@ input::placeholder {
     font-size: 0.7rem;
     text-align: center;
     width: fit-content;
+}
+
+ main{
+    height: auto;
+    margin-top: auto; 
 }
 
 
