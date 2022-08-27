@@ -292,10 +292,9 @@ p {
         display: flex;
         /* float: left; */
         font-weight: bold;
-        height: 30vh;
+        height: 32vh;
         /* justify-content: space-between; */
         /* margin: 2px 0 10px 0; */
-        overflow: hidden;
         padding: 4px;
         position: fixed;
         top: 0;
@@ -303,32 +302,86 @@ p {
         z-index: 20;
     }
 
+    main {
+        /* align-items: center; */
+        display: flex;
+        font-weight: bold;
+        height: 50vh;
+        justify-content: space-around;
+        width: 100%;
+        position: absolute;
+        top: 180px;
+        z-index: 20;
+    }
+
     .div-uno {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 55%;
+        width: 50%;
         object-fit: contain;
 
+        padding-top: 110px;
+    }
+
+    .div-dos, img{
+        align-items: center;
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: 50%;
+        justify-content: center;
+        padding: 0px 0 10px 0px;
+        object-fit: contain;
+        width: 80%;
     }
     
     .div-dos {
         align-items: center;
-        width: 10%;
         display: flex;
         flex-wrap: wrap;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
+        
+        top: 0%;
+        width: 100vw;
+        position: absolute;
     }
     
     .div-tres {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 35%;
-        object-fit: contain;
+        width: 50%;
+        padding-top: 110px;
 
+    }
+
+    .div-dos, .bienvenida {
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-top: 5px;
+    }
+
+    .div-cuatro {
+        height: 54vh;
+        margin-top: 8.5rem;
+        width: 41%;
+    }
+    
+    .div-cinco {
+        height: 54vh;
+        margin-top: 8.5rem;
+        width: 41%;
+    }
+
+    .div-seis {
+        /* border: red solid 2px; */
+        height: 5vh;
+        justify-content: center;
+        margin-top: 16.5rem;
+        text-align: center;
+        width: 100vw;
+        
+        display: block;
+        z-index: 50;
     }
 
      /* BOTONES */
@@ -366,11 +419,11 @@ input:hover{
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    width: 53%;
+    width: 70%;
 }
 
 .div-tres .botonesDos .esAltura {
-    margin-left: 33px;
+    margin-left: 30px;
 }
 
 input::placeholder {
@@ -380,11 +433,24 @@ input::placeholder {
 }
 
 .div-seis input {
-    justify-content: space-around;
-    margin-right: 5px;
-    width: 200px;
-    z-index: 50;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 180px;
 }
+
+#show {
+    font-size: 0.7rem;
+    text-align: left;
+    width: fit-content;
+}
+
+#scroll {
+    font-size: 0.7rem;
+    text-align: center;
+    width: fit-content;
+}
+
 
 }
 
