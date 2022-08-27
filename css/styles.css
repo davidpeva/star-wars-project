@@ -292,7 +292,7 @@ p {
         display: flex;
         /* float: left; */
         font-weight: bold;
-        height: 30vh;
+        height: 35vh;
         /* justify-content: space-between; */
         /* margin: 2px 0 10px 0; */
         padding: 4px;
@@ -356,21 +356,20 @@ p {
 
     .div-cuatro {
         height: 54vh;
-        margin-top: 8.5rem;
+        margin-top: 7rem;
         width: 41%;
     }
     
     .div-cinco {
         height: 54vh;
-        margin-top: 8.5rem;
+        margin-top: 7rem;
         width: 41%;
     }
 
     .div-seis {
         /* border: red solid 2px; */
-        height: 5vh;
         justify-content: center;
-        margin-top: 16rem;
+        margin-top: 15rem;
         text-align: center;
         width: 100vw;
                 
@@ -412,11 +411,11 @@ input:hover{
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 75%;
 }
 
 .div-tres .botonesDos .esAltura {
-    margin-left: 30px;
+    margin-left: 12px;
 }
 
 input::placeholder {
@@ -428,7 +427,8 @@ input::placeholder {
 .div-seis input {
     margin-left: 0;
     margin-right: 0;
-    width: 180px;
+    
+    width: 160px;
 }
 
 #show {
@@ -443,10 +443,6 @@ input::placeholder {
     width: fit-content;
 }
 
- main{
-    height: auto;
-    margin-top: auto; 
-}
 
 
 }
