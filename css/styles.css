@@ -299,7 +299,7 @@ p {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 20;
+        z-index: 60;
     }
 
     main {
