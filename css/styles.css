@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #000000;
     background-image: url('../img/star-wars-background.jpeg');
     background-repeat: no-repeat;
@@ -53,7 +53,8 @@ header {
     width: 35%;
 }
 
-.div-dos, img{
+.div-dos,
+img {
     align-items: center;
     display: flex;
     /* flex-wrap: wrap; */
@@ -68,8 +69,10 @@ img:hover {
     background-color: rgb(255, 255, 255, .1);
 }
 
-.div-dos, .bienvenida {
-    color: #f4f4f4;;
+.div-dos,
+.bienvenida {
+    color: #f4f4f4;
+    ;
     font-size: 1.4rem;
     margin-bottom: 8px;
     padding: 0 0 20 10px;
@@ -79,11 +82,11 @@ main {
     /* align-items: center; */
     display: flex;
     font-weight: bold;
-    height: 62vh;
+    height: 70vh;
     justify-content: space-around;
     width: 100%;
     position: absolute;
-    top: 230px;
+    top: 180px;
     z-index: 20;
 }
 
@@ -92,7 +95,7 @@ main {
     border: 1px solid #f4f4f4;
     border-radius: 2rem;
     display: flex;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     backface-visibility: 10;
     height: 58vh;
     justify-content: center;
@@ -106,7 +109,7 @@ main {
     border: 1px solid #f4f4f4;
     border-radius: 2rem;
     display: flex;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     height: 58vh;
     justify-content: center;
     margin: 8rem 0 10px 0;
@@ -116,46 +119,53 @@ main {
 
 .div-seis {
     /* border: red solid 2px; */
-    height: 8vh;
     justify-content: center;
-    margin-top: 16rem;
     text-align: center;
     width: 100vw;
-
     z-index: 50;
+
+    top: 0%;
+    width: 100vw;
+    position: absolute;
 }
 
- /* BOTONES */
+/* BOTONES */
 input {
     color: #f4e43a;
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0, 0, 0, .7);
     border: 0.5px solid #f4f4f4;
     border-radius: 1rem;
     padding: 15px 25px;
 }
 
-.div-uno, input {
+.div-uno,
+input {
     display: inline-block;
     margin: 10px 0px 10px 10px;
     text-align: center;
 }
 
-input:hover{
+input:hover {
     background-color: rgb(255, 255, 255, .1);
     color: red;
 }
 
-.div-tres, input {
+.div-tres,
+input {
     display: inline-block;
     margin: 20px 0px 20px 10px;
     text-align: center;
 }
-.div-uno, .masAltos{
+
+.div-uno,
+.masAltos {
     display: flex;
     flex-wrap: wrap;
     width: 47%;
 }
-.div-tres, .esAltura{
+
+.div-tres,
+.esAltura {
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -197,7 +207,8 @@ p {
     z-index: 30;
 }
 
-.div-cuatro, p {
+.div-cuatro,
+p {
     align-items: baseline;
     display: flex;
     object-fit: contain;
@@ -210,7 +221,7 @@ p {
 /* DESPLAZAMIENTO TEXTO DIV 4 */
 #scroll {
     color: #f4e43a;
-    display : flex;
+    display: flex;
     align-items: center;
     animation: slide-up 60s linear infinite;
     background: none;
@@ -225,16 +236,18 @@ p {
         transform: translateY(0);
         -webkit-transform: translateY(48%);
     }
+
     to {
         transform: translateY(0);
         -webkit-transform: translateY(-103%);
     }
-    
+
 }
 
 
 /* DESPLAZAMIENTO TEXTO DIV 5 */
-.div-cinco, p {
+.div-cinco,
+p {
     align-items: center;
     display: flex;
     object-fit: contain;
@@ -246,7 +259,7 @@ p {
 
 #show {
     color: #f4e43a;
-    display : flex;
+    display: flex;
     align-items: center;
     /* animation: segundo 60s linear infinite; */
     /* transition-delay: initial; */
@@ -264,15 +277,17 @@ p {
 }
 
 
-  
-  @keyframes fadein-animation {
+
+@keyframes fadein-animation {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
+
 /* 
 @keyframes segundo {
     from {
@@ -296,8 +311,6 @@ p {
         /* justify-content: space-between; */
         /* margin: 2px 0 10px 0; */
         padding: 4px;
-        position: fixed;
-        top: 0;
         width: 100vw;
         z-index: 60;
     }
@@ -306,7 +319,7 @@ p {
         /* align-items: center; */
         display: flex;
         font-weight: bold;
-        height: 50vh;
+        height: 65vh;
         justify-content: space-around;
         width: 100%;
         position: absolute;
@@ -319,7 +332,8 @@ p {
         padding-top: 110px;
     }
 
-    .div-dos, img{
+    .div-dos,
+    img {
         align-items: center;
         display: flex;
         /* flex-wrap: wrap; */
@@ -329,7 +343,7 @@ p {
         object-fit: contain;
         width: 80%;
     }
-    
+
     .div-dos {
         align-items: center;
         display: flex;
@@ -337,18 +351,19 @@ p {
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
-        
+
         top: 0%;
         width: 100vw;
         position: absolute;
     }
-    
+
     .div-tres {
         width: 50%;
         padding-top: 110px;
     }
 
-    .div-dos, .bienvenida {
+    .div-dos,
+    .bienvenida {
         font-size: 1rem;
         margin-bottom: 0;
         padding-top: 5px;
@@ -356,114 +371,99 @@ p {
 
     .div-cuatro {
         height: 54vh;
-        margin-top: 7rem;
+        margin-top: 9rem;
         width: 41%;
     }
-    
+
     .div-cinco {
         height: 54vh;
-        margin-top: 7rem;
+        margin-top: 9rem;
         width: 41%;
     }
 
     .div-seis {
         /* border: red solid 2px; */
         justify-content: center;
-        margin-top: 15rem;
+        margin-top: 6rem;
         text-align: center;
         width: 100vw;
-                
+
         z-index: 50;
     }
 
-     /* BOTONES */
-input {
-    color: #f4e43a;
-    background-color: rgba(0,0,0, .7);
-    border: 0.5px solid #f4f4f4;
-    border-radius: 1rem;
-    padding: 7px 10px;
+    /* BOTONES */
+    input {
+        color: #f4e43a;
+        background-color: rgba(0, 0, 0, .7);
+        border: 0.5px solid #f4f4f4;
+        border-radius: 1rem;
+        padding: 7px 10px;
+    }
+
+    .div-uno,
+    input {
+        display: inline-block;
+        margin: 5px 0px 5px 5px;
+        text-align: center;
+    }
+
+    input:hover {
+        background-color: rgb(255, 255, 255, .1);
+        color: red;
+    }
+
+    .div-tres,
+    input {
+        display: inline-block;
+        margin: 5px 5px 5px 0px;
+        text-align: center;
+    }
+
+    .div-uno,
+    .masAltos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 47%;
+    }
+
+    .div-tres,
+    .esAltura {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .div-tres .botonesDos .esAltura {
+        margin-left: 12px;
+    }
+
+    input::placeholder {
+        color: red;
+        font-size: 0.8rem;
+        object-fit: contain;
+    }
+
+    .div-seis input {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: 160px;
+    }
+
+    #show {
+        font-size: 0.7rem;
+        text-align: left;
+        width: fit-content;
+    }
+
+    #scroll {
+        font-size: 0.7rem;
+        text-align: center;
+        width: fit-content;
+    }
+
+
+
 }
-
-.div-uno, input {
-    display: inline-block;
-    margin: 5px 0px 5px 5px;
-    text-align: center;
-}
-
-input:hover{
-    background-color: rgb(255, 255, 255, .1);
-    color: red;
-}
-
-.div-tres, input {
-    display: inline-block;
-    margin: 5px 5px 5px 0px;
-    text-align: center;
-}
-.div-uno, .masAltos{
-    display: flex;
-    flex-wrap: wrap;
-    width: 47%;
-}
-.div-tres, .esAltura{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-}
-
-.div-tres .botonesDos .esAltura {
-    margin-left: 12px;
-}
-
-input::placeholder {
-    color: red;
-    font-size: 0.8rem;
-    object-fit: contain;
-}
-
-.div-seis input {
-    margin-left: 0;
-    margin-right: 0;
-    
-    width: 160px;
-}
-
-#show {
-    font-size: 0.7rem;
-    text-align: left;
-    width: fit-content;
-}
-
-#scroll {
-    font-size: 0.7rem;
-    text-align: center;
-    width: fit-content;
-}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
