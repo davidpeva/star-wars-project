@@ -322,7 +322,7 @@ p {
         height: 65vh;
         justify-content: space-around;
         width: 100%;
-        position: absolute;
+        position: relative;
         top: 150px;
         z-index: 20;
     }
@@ -430,13 +430,16 @@ p {
     .esAltura {
         align-items: center;
         justify-content: space-between;
-        display: flex;
         flex-wrap: wrap;
         width: 75%;
+
+        display: inline-block;
+        margin: 5px 0px 5px 5px;
+        text-align: center;
     }
 
     .div-tres .botonesDos .esAltura {
-        margin-left: 12px;
+        margin-left: 5px;
     }
 
     input::placeholder {
