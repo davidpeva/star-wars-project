@@ -21,7 +21,7 @@ header {
     height: 30vh;
     /* justify-content: space-between; */
     /* margin: 2px 0 10px 0; */
-    overflow: hidden;
+    overflow-y: scroll;
     padding: 4px;
     position: fixed;
     top: 0;
@@ -323,7 +323,7 @@ p {
         justify-content: space-around;
         width: 100%;
         position: absolute;
-        top: 180px;
+        top: 150px;
         z-index: 20;
     }
 
