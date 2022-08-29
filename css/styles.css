@@ -358,6 +358,7 @@ p {
         width: 100vw;
         position: absolute;
         z-index: 10;
+        padding: 0;
     }
 
     .div-tres {
@@ -371,7 +372,6 @@ p {
     .bienvenida {
         font-size: 1rem;
         margin-bottom: 0;
-        padding-top: 5px;
     }
 
     .div-cuatro {
