@@ -331,7 +331,6 @@ p {
         width: 50%;
         padding-top: 110px;
         margin-bottom: 0%;
-        z-index: 20;
     }
 
     .div-dos,
@@ -357,7 +356,6 @@ p {
         top: 0%;
         width: 100vw;
         position: absolute;
-        z-index: 10;
         padding: 0;
     }
 
@@ -365,7 +363,6 @@ p {
         width: 50%;
         padding-top: 110px;
         margin-bottom: 0%;
-        z-index: 20;
     }
 
     .div-dos,
@@ -408,7 +405,7 @@ p {
     .div-uno,
     input {
         display: inline-block;
-        margin: 5px 0px 5px 5px;
+        margin: 0px 5px 5px 0px;
         text-align: center;
     }
 
@@ -420,7 +417,7 @@ p {
     .div-tres,
     input {
         display: inline-block;
-        margin: 5px 5px 5px 0px;
+        margin: 0px 5px 5px 0px;
         text-align: center;
     }
 
@@ -428,23 +425,23 @@ p {
     .masAltos {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 5px;
         width: 47%;
     }
 
     .div-tres,
     .esAltura {
+        display: flex;
         align-items: center;
-        justify-content: space-between;
         flex-wrap: wrap;
         width: 75%;
 
         display: inline-block;
-        margin: 5px 0px 5px 5px;
         text-align: center;
     }
 
     .div-tres .botonesDos .esAltura {
-        margin-left: 5px;
+        margin-left: 6px;
     }
 
     input::placeholder {
