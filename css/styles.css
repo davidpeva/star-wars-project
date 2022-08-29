@@ -22,7 +22,7 @@ header {
     /* justify-content: space-between; */
     /* margin: 2px 0 10px 0; */
     overflow-y: scroll;
-    padding: 4px;
+    padding-left: 4px;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -305,18 +305,13 @@ p {
     header {
         align-items: center;
         display: flex;
-        /* float: left; */
         font-weight: bold;
         height: 35vh;
-        /* justify-content: space-between; */
-        /* margin: 2px 0 10px 0; */
-        padding: 4px;
         width: 100vw;
         z-index: 60;
-
         position: absolute !important;
-    right: 0;
-    left: 0;
+        right: 0;
+        left: 0;
 
     }
 
@@ -335,6 +330,8 @@ p {
     .div-uno {
         width: 50%;
         padding-top: 110px;
+        margin-bottom: 0%;
+        z-index: 20;
     }
 
     .div-dos,
@@ -360,11 +357,14 @@ p {
         top: 0%;
         width: 100vw;
         position: absolute;
+        z-index: 10;
     }
 
     .div-tres {
         width: 50%;
         padding-top: 110px;
+        margin-bottom: 0%;
+        z-index: 20;
     }
 
     .div-dos,
@@ -376,20 +376,20 @@ p {
 
     .div-cuatro {
         height: 54vh;
-        margin-top: 9rem;
+        margin-top: 8rem;
         width: 41%;
     }
 
     .div-cinco {
         height: 54vh;
-        margin-top: 9rem;
+        margin-top: 8rem;
         width: 41%;
     }
 
     .div-seis {
         /* border: red solid 2px; */
         justify-content: center;
-        margin-top: 6rem;
+        margin-top: 5rem;
         text-align: center;
         width: 100vw;
 
