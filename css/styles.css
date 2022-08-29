@@ -313,6 +313,11 @@ p {
         padding: 4px;
         width: 100vw;
         z-index: 60;
+
+        position: absolute !important;
+    right: 0;
+    left: 0;
+
     }
 
     main {
@@ -372,14 +377,12 @@ p {
     .div-cuatro {
         height: 54vh;
         margin-top: 9rem;
-        padding-bottom: 2rem;
         width: 41%;
     }
 
     .div-cinco {
         height: 54vh;
         margin-top: 9rem;
-        padding-bottom: 2rem;
         width: 41%;
     }
 
