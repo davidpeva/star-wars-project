@@ -124,6 +124,7 @@ main {
     width: 100vw;
     z-index: 50;
 
+    margin-top: 2rem;
     top: 0%;
     width: 100vw;
     position: absolute;
@@ -466,10 +467,23 @@ p {
 
     #scroll {
         font-size: 0.7rem;
+        height: auto;
         text-align: center;
         width: fit-content;
     }
 
+    @keyframes slide-up {
+        from {
+            transform: translateY(0);
+            -webkit-transform: translateY(31%);
+        }
+    
+        to {
+            transform: translateY(0);
+            -webkit-transform: translateY(-98%);
+        }
+    
+    }
 
 
 }
