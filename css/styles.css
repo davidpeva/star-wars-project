@@ -472,6 +472,10 @@ p {
         width: fit-content;
     }
 
+    #colunmas {
+        margin-top: 4vh;
+    }
+
     @keyframes slide-up {
         from {
             transform: translateY(0);
